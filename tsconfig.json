@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strict": true,
+    "allowJs": true,
+    "paths": {
+      "api": ["./src/client/api"],
+      "pages/*": ["./src/client/pages/*"],
+      "images/*": ["./src/client/assets/images/*"],
+      "styles/*": ["./src/client/assets/styles/*"],
+      "data/*": ["./data/*"],
+      "routes": ["./src/client/routes"],
+      "components": ["./src/client/components/"],
+      "components/*": ["./src/client/components/*"],
+      "utils": ["./src/client/utils/"],
+      "containers/*": ["./src/client/containers/*"],
+    },
+  },
+  "include": ["./src/client/**/*"]
+}

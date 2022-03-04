@@ -1,0 +1,6 @@
+plugins:
+  - removeTitle: true
+  - convertPathData: false
+  - removeDoctype: true
+  - removeXMLProcInst: true
+  - sortAttrs: true

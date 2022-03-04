@@ -1,0 +1,27 @@
+@import './palette.scss';
+@import './mixins.scss';
+
+$font-size: 16;
+
+$breakpoint-s: 768;
+$breakpoint-m: $default-width;
+$breakpoint-xm: 1200;
+$breakpoint-l: 1440;
+$breakpoint-xl: $max-width;
+
+$breakpoints: (
+  s: u($breakpoint-s),
+  m: u($breakpoint-m),
+  xm: u($breakpoint-xm),
+  l: u($breakpoint-l),
+  xl: u($breakpoint-xl),
+  retina: ('(-webkit-min-device-pixel-ratio: 2)', '(min-resolution: 192dpi)'),
+);
+
+:export {
+  s: $breakpoint-s;
+  m: $breakpoint-m;
+  xm: $breakpoint-xm;
+  l: $breakpoint-l;
+  xl: $breakpoint-xl;
+}
