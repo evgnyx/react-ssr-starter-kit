@@ -1,17 +1,31 @@
-## Зависимости
-node 12.16.2
+> No longer in development
 
-## Установка и настройка проекта
-Создать файл `.env` с локальными переменными
-```ruby
-DOMAIN=...
+# React SSR Starter Kit
+
+## Features
+* Server side rendering
+* Server Side data fetching
+* Gzip and brotli compression
+* Images optimization and serving webp format
+* SVG sprites
+* CSS modules
+* Code splitting and tree shaking
+* Routing via react-router
+* Typescript
+
+## Usage
+Node >= 12.16.2
+
+Create `.env` file with environment variables
 ```
-* **DOMAIN** - домен для апи
+DOMAIN=...
+API_HOST_SSR=...
+```
+* `DOMAIN`: client side api domain
+* `API_HOST_SSR`: server side api domain
 
-`npm i` - установка зависимостей
+`npm i` - install dependencies
 <br/>
-`npm run build` - сборка билда
+`npm run build` - build for production
 <br/>
-`npm start` - запуск дев сервера
-<br/>
-`nodemon dist` или `node dist` - запуск прод сервера
+`npm start` - start development server
