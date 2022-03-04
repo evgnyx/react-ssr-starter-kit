@@ -5,13 +5,13 @@
 ## Features
 * Server side rendering
 * Server Side data fetching
-* Gzip and brotli compression
+* Gzip and Brotli compression
 * Images optimization and serving webp format
 * SVG sprites
-* CSS modules
+* CSS Modules
 * Code splitting and tree shaking
-* Routing via react-router
-* Typescript
+* Routing via React Router
+* TypeScript
 
 ## Usage
 Node >= 12.16.2
